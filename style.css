@@ -1,0 +1,116 @@
+.titlu{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fatza{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   /* border: 2px solid red; */
+   position: relative;
+   height: 87vh;
+}
+.fatzau img{
+    height: auto;
+    width: 25%;
+}
+.forma-fata{
+    display: flex;
+    /* border: 2px solid rgb(219, 36, 219); */
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.fatzau{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    z-index: -5;
+}
+.par{
+    /* border:2px solid black; */
+    height: 20%;
+    margin: 10% 0 10% 0;
+    position: relative;
+}
+.componente-imagine-par{
+   position: relative;
+   height: 100px;
+   width: 100%;
+}
+.imagine-par{
+   position: absolute;
+   top:-200px;
+   left:20px;
+}
+.imagine-par img{
+    width: 500px;
+    height: 500px;
+}
+.ascunde{
+    opacity: 0%;
+}
+.arata{
+    opacity: 100%;
+}
+.ochi{
+    /* border: 2px solid red; */
+    height: 15%;
+    position: relative;
+}
+.imagine-ochi{
+    position: absolute; 
+    top: -40px;
+    left: 180px; 
+    /* border: 2px solid red; */
+}
+.imagine-ochi img{
+    height: 150px;
+    width: 300px;
+}
+.nas{
+    /* border: 2px solid greenyellow; */
+    height: 10%;
+    position: relative;
+}
+.imagine-nas{
+    position: absolute;
+    left: 290px;
+    top: -25px;
+}
+.imagine-nas img{
+    width: 90px;
+    height:90px;
+}
+.gura{
+    /* border: 2px solid rgb(29, 98, 126); */
+    height: 20%;
+    position: relative;
+}
+.imagine-gura{
+    position: absolute;
+    left: 187px;
+    top: -45px;
+}
+.imagine-gura img{
+    width: 300px;
+    height: auto;
+}
+.da{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+}
+.sageata{
+    width: 60px;
+    height: auto;
+    align-self: center;
+    filter: invert(50%);
+    cursor: pointer;
+}
